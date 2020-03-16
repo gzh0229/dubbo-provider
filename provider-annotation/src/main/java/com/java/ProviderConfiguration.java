@@ -30,8 +30,8 @@ public class ProviderConfiguration {
     public RegistryConfig registryConfig() {
         RegistryConfig registryConfig = new RegistryConfig();
         registryConfig.setProtocol("zookeeper");
-        registryConfig.setAddress("localhost");
-        registryConfig.setPort(2181);
+        registryConfig.setAddress("192.168.0.105");
+        registryConfig.setPort(2182);
         return registryConfig;
     }
 

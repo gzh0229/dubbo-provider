@@ -12,6 +12,7 @@ public class App {
         //加载xml配置文件启动
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("provider.xml");
         context.start();
+        System.out.println("提供方Started.........");
         System.in.read(); // 按任意键退出
     }
 }
